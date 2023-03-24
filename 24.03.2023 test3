@@ -1,0 +1,49 @@
+#include<stdio.h>
+struct workers
+{
+    char name[50];
+    int wdays;
+    int wage;
+
+};
+int main()
+{
+    struct workers a,b;
+printf("enter details of first worker  \n");
+printf("enter worker name :\n");
+scanf("%s",&a.name);
+printf("enter wage:\n");
+scanf("%d",&a.wage);
+printf("enter the wdays :\n");
+scanf("%d",&a.wdays);
+printf("enter details of second worker : \n");
+printf("enter worker name :\n");
+scanf("%s",&b.name);
+printf("enter wage:\n");
+scanf("%d",&b.wage);
+printf("enter the wdays :\n");
+scanf("%d",&b.wdays);
+int total1=(a.wage*a.wdays);
+int total2=(b.wage*b.wdays);
+printf("total payment of first worker :%d\n",total1);
+printf("total payment of second worker :%d\n",total2);
+return 0;
+}
+
+OUTPUT:
+enter details of first worker : 
+enter worker name :
+haresh
+enter wage:
+1000
+enter the wdays :
+5
+enter details of second worker : 
+enter worker name :
+habeeb
+enter wage:
+5000
+enter the wdays :
+5
+total payment of first worker :5000
+total payment of second worker :25000
