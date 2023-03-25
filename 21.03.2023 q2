@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int num1,num2,product;
+	printf("Enter two numbers:");
+	scanf("%d %d",&num1,&num2);
+	product=num1*num2;
+	printf("Product of two numbers: %d",product);
+	return  0;
+}
+			
+	output:
+  Enter two numbers:5
+3
+Product of two numbers: 15
